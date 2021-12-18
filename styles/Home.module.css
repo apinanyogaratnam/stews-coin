@@ -114,3 +114,16 @@
     flex-direction: column;
   }
 }
+
+.navbar {
+  /* background-color: #fff; */
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: steelblue;
+  height: 70px;
+}
