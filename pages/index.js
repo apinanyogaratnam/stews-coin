@@ -12,14 +12,53 @@ export default function Home() {
       </Head>
 
       <div className={styles.navbar}>
-        <div>Icon</div>
-        <div>Title</div>
+        <img src="" alt="icon goes here" />
+        <h2>Stews Coin</h2>
+        <div className={styles.menu}>
+          <button>Wallets</button>
+          <button>What is Stews Coin</button>
+          <button>Get Started Now</button>
+          <button>Guide</button>
+          <button>FAQ</button>
+        </div>
+      </div>
+
+      <div className={styles.body}>
+        <h1>1 Stew = 1 Stew</h1>
+        <h3>Stew Coin is an ERC-20 token that lives on the rinkeby network</h3>
+        <button onClick={() => window.open('https://rinkeby.etherscan.io/token/0xf66acd3e7eadb68effdc2d304d054e176ddb12a0')}>View Contract</button>
+        <button onClick={() => window.open('https://github.com/apinanyogaratnam/stews-coin')}>Source</button>
+
         <div>
-          <h3>Wallets</h3>
-          <h3>What is Stews Coin</h3>
-          <h3>Get started now</h3>
-          <h3>Guide</h3>
-          <h3>FAQ</h3>
+          <h1>Wallets</h1>
+          <p>Metamask is a widely popular wallet to store ERC-20 tokens</p>
+        </div>
+
+        <div>
+          <h1>What is Stews Coin</h1>
+          <p>
+            Stew Coin is an ERC-20 token that lives on the rinkeby network. The
+            dev team wanted to create something for fun that has no real value
+            and no purpose other than to hold or transfer.
+          </p>
+        </div>
+
+        <div>
+          <h1>Get Started Now</h1>
+          <p>Select the rinkeby chain, import tokens, then paste in the contract address: 0xf66acd3e7eadb68effdc2d304d054e176ddb12a0</p>
+          <p>It will automatically pick up all the details and click add</p>
+          <p>You can now view your balance of STEW</p>
+        </div>
+
+        <div>
+          <h1>Guide</h1>
+          <p>Please read get started now section</p>
+        </div>
+
+        <div>
+          <h1>FAQ</h1>
+          <p>No one asked any questions yet</p>
+          <p>Totally not a meme coin</p>
         </div>
       </div>
     </div>

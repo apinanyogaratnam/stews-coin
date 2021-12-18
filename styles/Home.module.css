@@ -126,4 +126,17 @@
   width: 100%;
   background-color: steelblue;
   height: 70px;
+  position: fixed;
+  margin-top: -21px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.body {
+  position: relative;
+  top: 46px;
+  background-color: yellow;
 }
